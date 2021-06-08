@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="82.0" layoutY="32.0" text="Le Marathon" textAlignment="CENTER">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Button layoutX="251.0" layoutY="244.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="Jouer" />
+      <Button layoutX="251.0" layoutY="433.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="Records" />
+      <Button fx:id="boutonQuitter" layoutX="250.0" layoutY="625.0" mnemonicParsing="false" onAction="#hoverQuitter" onMouseClicked="#quitter" prefHeight="100.0" prefWidth="200.0" text="Quitter" />
+   </children>
+</AnchorPane>
